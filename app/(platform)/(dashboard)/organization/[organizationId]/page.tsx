@@ -4,7 +4,7 @@ const organizationId = () => {
     const { user, userId, orgId} = auth();
     return (
         <div>
-            {/* <OrganizationSwitcher hidePersonal /> */}
+            Organization page
         </div>
     );
 }
