@@ -1,3 +1,6 @@
+import { Sidebar } from "../_components/sidebar";
+
+
 const OrganisationLayout = ({
     children
 }: {
@@ -7,7 +10,7 @@ const OrganisationLayout = ({
         <main className="pt-20 md:pt-24 px-4 max-w-6xl zxl:max-w-screen-xl mx-auto">
             <div className="flex gap-x-4">
                 <div className="w-64 shrink-0 hidden md:block">
-                    {/* sidebar */}
+                    <Sidebar />
                 </div>
             </div>
             {children}
@@ -15,4 +18,4 @@ const OrganisationLayout = ({
     )
 }
 
-export default OrganisationLayout;
+export default OrganisationLayout; 
